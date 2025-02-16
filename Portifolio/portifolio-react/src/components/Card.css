@@ -1,0 +1,96 @@
+.container-card {
+    background-color: rgba(42, 43, 44, 0.4);  /* Cinza com transparência */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 175px;
+    height: 350px;
+    margin: auto;
+    justify-content: center;  /* Centraliza os ícones horizontalmente */
+    align-items: center;      /* Centraliza os ícones verticalmente */
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.social-midia {
+    display: flex;
+    width: 100px;
+    text-decoration: none;   
+   
+}
+
+.title-card {
+    font-size: 24px;
+}
+
+.p-card {
+    font-size: 12px;
+}
+
+.icon {
+    color: white; 
+    font-size: 12px;
+}
+
+.my-foto {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background: linear-gradient(45deg, #000046, #1CB5E0); 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+}
+
+.foto {
+    width: 100%;  /* Faz a imagem ocupar toda a largura do container */
+    height: 100%; /* Faz a imagem ocupar toda a altura do container */
+    object-fit: cover; /* Ajusta a imagem para cobrir sem distorcer */
+    border-radius: 10px; /* Mantém o arredondamento da imagem */
+}
+.contact {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;  
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    width: 60px;  
+}
+
+.contact:hover {
+    background: linear-gradient(45deg, #000046, #1CB5E0); 
+    border-color: grey 
+}
+
+@media (max-width: 500px) { 
+    .container-card {
+        width: 160px;
+    }
+    .my-foto {
+        width: 140px;
+        height: 150px;
+        margin: auto;
+        border-radius: 10px; 
+    }
+    
+    .title-card {
+        font-size: 20px;
+    }
+    
+    .p-card {
+        font-size: 12px;
+    }
+    .contact {
+        width: 50px;
+        font-size: 10px;
+        padding: 7px 20px;
+    }
+}

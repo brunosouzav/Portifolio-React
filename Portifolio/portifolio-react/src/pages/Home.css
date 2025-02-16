@@ -1,0 +1,103 @@
+.container-home {
+    width: 100%;
+    max-width: 1300px;
+    min-height: 100vh; /* Garante que ocupe pelo menos toda a altura da tela */
+    margin: auto;
+    padding: 0 20px; /* Adiciona espaço nas laterais */
+}
+
+.home-conteudo {
+    width: 800px;
+    color: white;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.h1-home-pricipal{
+    font-size: 40px;
+}
+
+.container-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+span {
+    background: linear-gradient(130deg,#000046, #1CB5E0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-texto {
+    font-size: 15px;
+    width: 300px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.home-social-midia {
+    display: flex;
+    width: 200px;
+    margin: auto;
+}
+
+
+@media (max-width: 768px) {
+    .container-home {
+        padding: 0 10px; /* Reduzindo o padding nas laterais */
+    }
+
+    .home-conteudo {
+        margin: auto;
+        width: 90%; /* Tornando a largura do conteúdo mais estreita */
+        color: white;
+    }
+
+    .h1-home {
+        font-size: 30px; /* Diminuindo o tamanho da fonte do título */
+    }
+
+    .home-texto {
+        font-size: 14px; /* Reduzindo o tamanho da fonte do texto */
+        width: 100%; /* Ajustando o texto para ocupar toda a largura possível */
+        margin-top: 20px; /* Ajustando o espaçamento superior */
+    }
+
+    .home-social-midia {
+        display: flex;
+        width: 150px; /* Diminuindo o tamanho dos ícones de redes sociais */
+        margin: auto;
+    }
+}
+
+/* Ajustes para telas muito pequenas, como celulares menores */
+ @media (min-width: 300px) and (max-width: 768px){
+    .h1-home-pricipal {
+        font-size: 20px; /* Tamanho ainda menor para títulos em telas muito pequenas */
+    }
+
+    .home-texto {
+        font-size: 10px; /* Reduzindo ainda mais o tamanho do texto */
+        width: 250px; 
+        margin-top: 15px; 
+    }
+
+    .home-social-midia {
+        width: 130px; /* Ajustando os ícones de redes sociais */
+    }
+
+    .home-conteudo {
+        height: 650px;
+        margin-left: 50px;
+    }
+
+    .container-pages {
+        gap: 200px;
+    }
+
+}
+
+.rodape {
+    width: 200px;
+    height: 200px;
+}

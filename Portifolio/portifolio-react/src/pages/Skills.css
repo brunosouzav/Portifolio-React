@@ -1,0 +1,13 @@
+.container-skills {
+   display: flex;
+   margin: auto;
+   gap: 30px;
+   flex-direction: column;
+}
+.title-skills {
+    color: white;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+

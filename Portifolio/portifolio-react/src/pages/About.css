@@ -1,0 +1,33 @@
+.container-about {
+    width: 850px;
+    margin: auto;
+    display: flex;
+    height: 600px;
+    justify-content: space-between; /* Distribui os itens no espaço disponível */
+    text-align: center;
+}
+
+.title-about {
+    font-size: 15px;
+    color: white;
+    width: 350px;
+    text-align: left;
+    height: 250px;
+    margin: auto;
+}
+
+@media (max-width: 500px) { 
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 220px;
+    }
+
+    .title-about {
+        width: 250px;
+        font-size: 11px;
+    }
+
+    
+}

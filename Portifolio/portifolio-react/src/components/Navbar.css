@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container-navbar {
+    display: flex;
+    background-color: rgba(44, 45, 46, 0.8); 
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 0px 8px;
+    gap: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 15px; /* Tamanho fixo para o link */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 5px 0;
+    transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
+   
+}
+
+.link:hover {
+    background: linear-gradient(130deg,#000046, #1CB5E0);
+    color: white; 
+    border-radius: 5px; /* Mantém as bordas arredondadas no hover */
+}
+
+.link.active {
+    background: linear-gradient(130deg, #000046, #1CB5E0); /* Cor do fundo quando ativo */
+    color: white; 
+    border-radius: 5px; /* Bordas arredondadas no estado ativo */
+    padding: 5px 15px; /* Mantém o tamanho do link ativo consistente */
+}
+
+@media (max-width: 500px) { 
+
+    .container-navbar{
+        display: flex;
+        background-color: rgba(44, 45, 46, 0.8); 
+        width: 250px;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 0px 8px;
+        gap: 10px;
+    }
+}

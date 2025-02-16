@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "tsparticles": "^3.8.1",
+    "typewriter-effect": "^2.21.0"
+  }
+}
