@@ -7,7 +7,7 @@ export class About extends Component {
     return (
       <div className='container-about'>
           <Card/>
-          <p className='title-about'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam tenetur repellendus totam, perspiciatis reprehenderit, facere neque soluta doloribus excepturi rerum reiciendis voluptatem asperiores nostrum voluptas mollitia accusantium. Dignissimos, dolorum unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores placeat numquam, dignissimos eligendi, illum obcaecati reprehenderit fugit exercitationem, perspiciatis autem iste natus minima cumque veniam facilis molestiae iusto ducimus.</p>
+          <p className='title-about'>Sou um Desenvolvedor Full Stack e Designer UI/UX, apaixonado por criar aplicações escaláveis e experiências interativas. No back-end, utilizo Java para desenvolver soluções robustas e eficientes. No front-end, trabalho com React Native, criando interfaces dinâmicas e responsivas. Além disso, tenho experiência com Figma, onde projeto layouts modernos e intuitivos, garantindo a melhor experiência do usuário. Meu foco está na construção de aplicações bem estruturadas, com código limpo e design estratégico para proporcionar usabilidade e performance. </p>
       </div>
     )
   }
