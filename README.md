@@ -18,6 +18,3 @@ Ambiente leve e rápido com Vite
 
 Estrutura modular para expansão futura
 
-🔗 Link para o Projeto
-
-Acesse o projeto online: https://portifolio-react-pvb7.vercel.app
